@@ -1,0 +1,10 @@
+{
+  "usuario_sucesso": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "usuario_invalido": {
+    "username": "Admin",
+    "password": "senhaErrada"
+  }
+}

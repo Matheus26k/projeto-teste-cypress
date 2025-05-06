@@ -1,0 +1,8 @@
+{
+  "cSpell.language": "en,pt",
+  "cSpell.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "onWindowChange",
+  "cypress.experimentalStudio": true
+}
