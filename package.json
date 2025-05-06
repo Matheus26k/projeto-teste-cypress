@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Projeto de Teste Automatizado com Cypress",
   "scripts": {
-  "cypress:open": "cypress open",
-  "cypress:run": "cypress run",
-  "run:chrome": "cypress run --browser chrome",
-  "run:firefox": "cypress run --browser firefox",
-  "lint": "eslint . --ext .js",
-  "format": "prettier --write ."
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "run:chrome": "cypress run --browser chrome",
+    "run:firefox": "cypress run --browser firefox",
+    "atualizar-git": "git add . && git commit -m \"Atualização automática\" && git push",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "cypress": "^14.3.2",
