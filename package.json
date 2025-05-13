@@ -7,6 +7,7 @@
     "cypress:run": "cypress run",
     "run:chrome": "cypress run --browser chrome",
     "run:firefox": "cypress run --browser firefox",
+    "test:report": "cypress run --reporter cypress-mochawesome-reporter --reporter-options reportDir=relatorios,overwrite=false,html=true,json=true",
     "atualizar-git": "git add . && git commit -m \"Atualização automática\" && git push",
     "lint": "eslint . --ext .js",
     "format": "prettier --write ."
